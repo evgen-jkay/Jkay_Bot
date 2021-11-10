@@ -2,10 +2,7 @@
 
 ## Мой теленрам бот
 
-![GitHub all releases](https://img.shields.io/github/downloads/evgen-jkay/Jkay_Bot/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Jkay_Bot/ValidationIp)
-
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evgen-jkay/Jkay_Bot/JavaCIwithMaven)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evgen-jkay/Jkay_Bot/JavaMaven)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/evgen-jkay/Jkay_Bot)
 ![GitHub issues](https://img.shields.io/github/issues/evgen-jkay/Jkay_Bot)
 
