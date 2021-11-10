@@ -2,6 +2,8 @@
 
 ## Мой теленрам бот
 
+### [@Jkay_Bot](https://t.me/Jkay_Bot)
+
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evgen-jkay/Jkay_Bot/JavaMaven)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/evgen-jkay/Jkay_Bot)
 ![GitHub issues](https://img.shields.io/github/issues/evgen-jkay/Jkay_Bot)
