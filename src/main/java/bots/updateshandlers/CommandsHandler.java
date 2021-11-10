@@ -1,6 +1,7 @@
 package bots.updateshandlers;
 
 import bots.BotConfig;
+import bots.commands.HelpCommand;
 import bots.commands.StartCommand;
 import bots.commands.StopCommand;
 import org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot;
@@ -27,6 +28,8 @@ public class CommandsHandler extends TelegramLongPollingCommandBot {
 
         register(new StartCommand());
         register(new StopCommand());
+        HelpCommand helpCommand = new HelpCommand(this);
+        register(helpCommand);
 
         registerDefaultAction((absSender, message) -> {
             SendMessage commandUnknownMessage = new SendMessage();
