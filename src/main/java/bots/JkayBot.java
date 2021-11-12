@@ -3,6 +3,9 @@ package bots;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
+/**
+ * @author Eugen Landarenko
+ */
 public class JkayBot extends TelegramLongPollingBot {
     @Override
     public String getBotUsername() {
