@@ -10,16 +10,6 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
  */
 public class JkayBot extends TelegramLongPollingBot {
     @Override
-    public String getBotUsername() {
-        return BotConfig.BOT_NAME;
-    }
-
-    @Override
-    public String getBotToken() {
-        return BotConfig.BOT_TOKEN;
-    }
-
-    @Override
     public void onUpdateReceived(Update update) {
         update.getUpdateId();
 
@@ -33,6 +23,16 @@ public class JkayBot extends TelegramLongPollingBot {
                 e.printStackTrace();
             }
         }
+    }
+
+    @Override
+    public String getBotUsername() {
+        return BotConfig.BOT_NAME;
+    }
+
+    @Override
+    public String getBotToken() {
+        return BotConfig.BOT_TOKEN;
     }
 }
 
